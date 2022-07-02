@@ -1,0 +1,9 @@
+type Swap @entity {
+	id: ID! # Transaction hash
+	baseTo: String!
+	baseFrom: String!
+	baseFor: BigInt!
+	quoteTo: String!
+	quoteFrom: String!
+	quoteFor: BigInt!
+}
